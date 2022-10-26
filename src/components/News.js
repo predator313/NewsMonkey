@@ -71,7 +71,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h2 className="text-center">NewsMonkey top headlines</h2>
+        <h2 className="text-center" style={{margin:'35px 0px'}}>NewsMonkey top headlines</h2>
          
         {this.state.loding && <Spinner/>}
 
